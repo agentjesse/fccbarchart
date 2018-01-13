@@ -1,0 +1,28 @@
+html{
+  font-size: 16px;
+  background-color: rgb(240, 240, 240);
+}
+
+body {
+  /* margin: 0; */
+}
+
+.bar {
+  fill: rgb(45, 54, 180);
+}
+
+.axis text {
+  fill: rgb(65, 114, 0);
+  font: 10px sans-serif;
+}
+.axis path,
+.axis line {
+  fill: none;
+  stroke: rgb(45, 54, 180);
+  stroke-width: 2px;
+  shape-rendering: crispEdges;
+}
+.x.axis path {
+  display: none;
+}
+
