@@ -69,7 +69,7 @@ d3.json('https://raw.githubusercontent.com/FreeCodeCamp/ProjectReferenceData/mas
 				.attr('class', 'y axis')
 				.call(yAxis);
 	chart.selectAll('.tick text')//self made mod
-				.attr('dy', '0.9em');
+				.attr('dy', '0.7em');
 	//remember that at this point the chart variable is already the group you put into the svg. 
   chart.selectAll('rect')//initiate data join, in this case, the rect elements of this line don't exist yet...
         .data(data)//join the data. update selection is returned, it has enter selection hanging off it

@@ -35,7 +35,7 @@ body {
 
 .axis text {
   fill: rgb(0, 5, 70);
-  font: 10px sans-serif;
+  font: 12px sans-serif;
 }
 .axis path,
 .axis line {
