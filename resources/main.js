@@ -27,8 +27,8 @@ d3.select('.svgchart')
 								.attr('class','chartBkg')
 								.attr('width',width + margin.left + margin.right)
 								.attr('height',height + margin.top + margin.bottom)
-								.attr('rx','20')
-								.attr('ry','20');
+								.attr('rx','15')
+								.attr('ry','15');
 d3.select('.svgchart').append('text')
 								.attr('class', 'chartTitle')
 								.text('Gross Domestic Product - USA')

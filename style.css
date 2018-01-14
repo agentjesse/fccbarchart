@@ -1,10 +1,9 @@
 html{
   font-size: 16px;
-  background-color: rgb(216, 223, 253);
-  /* colrrerererer: #c5ffe7; */
 }
 body {
-  margin: 30px 0 0 0;
+  background-color: rgb(223, 228, 252);
+  margin: 2rem 0 0 0;
   display: flex;
   justify-content: center;
 }
@@ -12,8 +11,9 @@ body {
 .toolTip{
   font-family: Helvetica, sans-serif;
   background-color: rgb(232, 236, 255);
-  border-radius: 10px;
+  border-radius: 6px;
   padding: 6px 11px;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.493);
 }
 
 .chartBkg{
@@ -22,8 +22,8 @@ body {
 
 .chartTitle,
 .yTitle{
-  fill: rgb(25, 0, 138);
-  font: 40px sans-serif;
+  fill: rgb(20, 0, 110);
+  font: bold 40px sans-serif;
 }
 .yTitle{
   font-size: 20px;
