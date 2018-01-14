@@ -1,25 +1,47 @@
 html{
   font-size: 16px;
-  background-color: rgb(240, 240, 240);
+  background-color: rgb(216, 223, 253);
+  /* colrrerererer: #c5ffe7; */
+}
+body {
+  margin: 30px 0 0 0;
+  display: flex;
+  justify-content: center;
 }
 
-body {
-  /* margin: 0; */
+.toolTip{
+  font-family: Helvetica, sans-serif;
+  background-color: rgb(232, 236, 255);
+  border-radius: 10px;
+  padding: 6px 11px;
+}
+
+.chartBkg{
+  fill: rgb(255, 255, 255);
+}
+
+.chartTitle,
+.yTitle{
+  fill: rgb(25, 0, 138);
+  font: 40px sans-serif;
+}
+.yTitle{
+  font-size: 20px;
 }
 
 .bar {
-  fill: rgb(45, 54, 180);
+  fill: rgb(58, 67, 190);
 }
 
 .axis text {
-  fill: rgb(65, 114, 0);
+  fill: rgb(0, 5, 70);
   font: 10px sans-serif;
 }
 .axis path,
 .axis line {
   fill: none;
-  stroke: rgb(45, 54, 180);
-  stroke-width: 2px;
+  stroke: rgb(0, 5, 70);
+  stroke-width: 1px;
   shape-rendering: crispEdges;
 }
 .x.axis path {
