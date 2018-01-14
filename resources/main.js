@@ -86,7 +86,6 @@ d3.json('https://raw.githubusercontent.com/FreeCodeCamp/ProjectReferenceData/mas
 			// console.log(d);
 			// console.log(this);
 			//display formatted tooltip div
-			// tooltip.html('&#36;' + d[1] + '<br>Billions<br>' + d[0].split('').splice(0,7).join('') )
 			tooltip.html('<b>&#36;' + d[1] + ' Billion<br></b>' + d[0]  )
 							//DON'T FORGET TO OFFSET THE POPUP OR IT WILL INTERFERE, causing multiple event firing
 							.style('left', d3.event.pageX - 40 + 'px')//d3.event must be used to access the usual event object
